@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px){
+    .menu-desktop{
+        display: none;
+     }
+     .menu-mobile{
+        display: block;
+     }
+}

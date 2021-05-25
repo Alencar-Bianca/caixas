@@ -1,0 +1,19 @@
+.menu-desktop{
+   text-align: right;
+}
+.menu-desktop .ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.menu-desktop .ul .li{
+    margin-left: 15px;
+}
+.menu-desktop .ul .li .link{
+    font-family: var(--font-koho);
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+}
+.menu-desktop .ul .li .link:hover{
+    color: var(--color02);
+}

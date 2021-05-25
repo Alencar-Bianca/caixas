@@ -1,0 +1,10 @@
+.main-display{
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

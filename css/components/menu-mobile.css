@@ -1,0 +1,30 @@
+.menu-mobile{
+    background-image: url('../../img/menu.png');
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-mobile .ul{
+    position: absolute;
+    background-color: var(--color03);
+    left: 0;
+    top: 50px;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    display: none;
+}
+.menu-mobile .ul .li{
+    margin: 15px 0;
+}
+.menu-mobile .ul .li .link{
+    font-family: var(--font-koho);
+    font-weight: 300;
+    color: #000;
+    font-size: 1.2em;
+}
+.menu-mobile .ul .li .link:hover{
+    color: var(--color02);
+}
