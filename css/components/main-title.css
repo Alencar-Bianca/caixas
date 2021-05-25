@@ -2,3 +2,14 @@
     font-family: var(--font-stint);
     font-size: 3em;
 }
+.-bgred{
+    background-color: var(--color02);
+}
+.-bg2{
+    background-color: var(--color03);
+}
+.box{
+    display: inline-block;
+    padding: 5px 60px;
+    border-radius: 25px;
+}

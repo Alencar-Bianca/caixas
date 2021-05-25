@@ -15,6 +15,7 @@
     list-style-type: none;
     text-align: center;
     display: none;
+    z-index: 5;
 }
 .menu-mobile .ul .li{
     margin: 15px 0;

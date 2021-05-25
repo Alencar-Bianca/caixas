@@ -1,0 +1,8 @@
+.main-p{
+    font-family: var(--font-poppins);
+    font-size: 1.5em;
+}
+.preco{
+    font-weight: bold;
+    color: #000;
+}
