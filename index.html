@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/components/single-product.css">
     <link rel="stylesheet" href="css/components/single-product.css">
     <link rel="stylesheet" href="css/components/main-p.css">
+    <link rel="stylesheet" href="css/components/main-contact.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -31,75 +32,83 @@
             <nav class="menu-desktop">
                 <ul class="ul">
                     <li class="li"><a  class="link " href="#">HOME</a> </li>
-                    <li class="li"> <a class="link " href="#">PRODUTOS</a> </li>
-                    <li class="li"> <a class="link " href="#">CONTATO</a> </li>
+                    <li class="li"> <a class="link " href="#produto">PRODUTOS</a> </li>
+                    <li class="li"> <a class="link " href="#contato">CONTATO</a> </li>
                 </ul>
             </nav>
 
             <nav class="menu-mobile">
                 <ul class="ul">
                     <li class="li"><a  class="link " href="#">HOME</a> </li>
-                    <li class="li"> <a class="link " href="#">PRODUTOS</a> </li>
-                    <li class="li"> <a class="link " href="#">CONTATO</a> </li>
+                    <li class="li"> <a class="link " href="#produto">PRODUTOS</a> </li>
+                    <li class="li"> <a class="link " href="#contato">CONTATO</a> </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="main-banner">
-        <div class="main-display">
-            <div class="imgbanner" ></div>
-            <div class="imgbanner2"></div>
-        </div>
-    </section>
 
-    <section class="main-product main-padding">
-        <h1 class="main-title -bgred box">CAIXAS</h1>
-        <div class="main-display flex">
+    <main>
+        <section class="main-banner">
+            <div class="main-display">
+                <div class="imgbanner" ></div>
+                <div class="imgbanner2"></div>
+            </div>
+        </section>
 
-            <div class="single-product">
-                <a data-fancybox="gallery1" data-caption="image one" href="img/box.jpg"> <img class="imgbox" src="img/box.jpg" alt="Box1"></a>
-                <p class="main-p">Caixa 01</p>
-                <p class="main-p "><a class="preco -bg2 box"  href="">R$ 45</a></p>
+        <section id="produto" class="main-product main-padding">
+            <h1 class="main-title -bgred box">CAIXAS</h1>
+            <div class="main-display flex">
+                <div class="single-product">
+                    <a data-fancybox="gallery1" data-caption="image one" href="img/box.jpg"> <img class="imgbox" src="img/box.jpg" alt="Box1"></a>
+                    <p class="main-p">Caixa 01</p>
+                    <p class="main-p "><a class="preco -bg2 box"  href="">R$ 45</a></p>
+                </div>
+                <div class="single-product">
+                    <a data-fancybox="gallery1" data-caption="image one"  href="img/box.jpg"><img class="imgbox" src="img/box.jpg" alt="Box1"></a>
+                    <p class="main-p">Caixa 01</p>
+                    <p class="main-p "><a class="preco -bg2 box" href="">R$ 45</a></p>
+                </div>
+                <div class="single-product">
+                    <a data-fancybox="gallery1" data-caption="image one"  href="img/box.jpg"><img class="imgbox" src="img/box.jpg" alt="Box1"></a>
+                    <p class="main-p">Caixa 01</p>
+                    <p class="main-p"><a class="preco -bg2 box" href="">R$ 45</a></p>
+                </div>
             </div>
-            <div class="single-product">
-                <a data-fancybox="gallery1" data-caption="image one"  href="img/box.jpg"><img class="imgbox" src="img/box.jpg" alt="Box1"></a>
-                <p class="main-p">Caixa 01</p>
-                <p class="main-p "><a class="preco -bg2 box" href="">R$ 45</a></p>
+        </section>
+        <section class="main-product main-padding">
+            <h1 class="main-title -bgred box">GARRAFAS</h1>
+            <div class="main-display flex">
+                <div class="single-product">
+                    <a data-fancybox="gallery" data-caption="image one" href="img/bottle.jpg"> <img rel="galeria1" class="imgbox" src="img/bottle.jpg" alt="Box1"></a>
+                    <p class="main-p">Caixa 01</p>
+                    <p class="main-p "><a class="preco -bg2 box"  href="">R$ 45</a></p>
+                </div>
+                <div class="single-product">
+                    <a data-fancybox="gallery" data-caption="image one"  href="img/bottle.jpg"><img rel="galeria1" class="imgbox" src="img/bottle.jpg" alt="Box1"></a>
+                    <p class="main-p">Caixa 01</p>
+                    <p class="main-p "><a class="preco -bg2 box" href="">R$ 45</a></p>
+                </div>
+                <div class="single-product">
+                    <a data-fancybox="gallery" data-caption="image one"  href="img/bottle.jpg"><img class="imgbox" src="img/bottle.jpg" alt="Box1"></a>
+                    <p class="main-p">Caixa 01</p>
+                    <p class="main-p"><a class="preco -bg2 box" href="">R$ 45</a></p>
+                </div>
             </div>
-            <div class="single-product">
-                <a data-fancybox="gallery1" data-caption="image one"  href="img/box.jpg"><img class="imgbox" src="img/box.jpg" alt="Box1"></a>
-                <p class="main-p">Caixa 01</p>
-                <p class="main-p"><a class="preco -bg2 box" href="">R$ 45</a></p>
+        </section>
+        <section id="contato" class="main-contact">
+            <div class="over"></div>
+            <div class="main-display">
+                <h1 class="main-title"><a class="a" href="">ENTRE EM CONTATO</a></h1>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-
-    <section class="main-product main-padding">
-        <h1 class="main-title -bgred box">GARRAFAS</h1>
-        <div class="main-display flex">
-
-            <div class="single-product">
-                <a data-fancybox="gallery" data-caption="image one" href="img/bottle.jpg"> <img rel="galeria1" class="imgbox" src="img/bottle.jpg" alt="Box1"></a>
-                <p class="main-p">Caixa 01</p>
-                <p class="main-p "><a class="preco -bg2 box"  href="">R$ 45</a></p>
-            </div>
-            <div class="single-product">
-                <a data-fancybox="gallery" data-caption="image one"  href="img/bottle.jpg"><img rel="galeria1" class="imgbox" src="img/bottle.jpg" alt="Box1"></a>
-                <p class="main-p">Caixa 01</p>
-                <p class="main-p "><a class="preco -bg2 box" href="">R$ 45</a></p>
-            </div>
-            <div class="single-product">
-                <a data-fancybox="gallery" data-caption="image one"  href="img/bottle.jpg"><img class="imgbox" src="img/bottle.jpg" alt="Box1"></a>
-                <p class="main-p">Caixa 01</p>
-                <p class="main-p"><a class="preco -bg2 box" href="">R$ 45</a></p>
-            </div>
-        </div>
-    </section>
+    
     <script src="js/jquery.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/slide.js"></script>
     <script src="js/photo.js"></script>
+    <script src="js/navigation.js"></script>
 </body>
 </html>
